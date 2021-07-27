@@ -13,7 +13,7 @@ do {
                 code = pwd.charCodeAt(i)
                 if((code >= 48 && code <= 57)||(code >= 65 && code <= 90)||(code >= 97 && code <= 122)){
                     isPwdOk = true;
-                }else{
+                }else{                                                  
                     isPwdOk = false;
                 }
             }        
